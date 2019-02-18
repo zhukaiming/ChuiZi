@@ -1,0 +1,41 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		/*font-size: 12px;*/
+	}
+	.container{
+		width: 1220px;
+		margin: 0 auto;
+	}
+
+/*公共样式结束*/
+/*公共连接开始*/
+	a{
+		text-decoration: none;
+		/*color: #fff;*/
+		cursor: pointer;
+	}
+	li{
+		list-style: none;
+
+	}
+	.col1{
+		width: 305px;
+	}
+	.col4{
+		width: 1220px;
+	}
+/*公共连接结束*/
+/*浮动相关的公共样式开始*/
+	.clearfix:after{
+		clear: both;
+		display: block;
+		content: '';
+		height: 0px;
+		visibility: hidden;
+	}
+	.clearfix{
+		*zoom:1;
+	}
